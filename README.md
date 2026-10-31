@@ -11,7 +11,7 @@
 
 ## 📊 统计数据
 
-- **收录条目**：33 个（详细核验）+ 8 个（附录候选）
+- **收录条目**：33 个（详细核验）+ 9 个（附录候选）
 - **覆盖领域**：4 大领域 + MCP 基础设施 + 文档处理
 
 ## 🌟 主要发现
@@ -71,6 +71,8 @@
 - **modelcontextprotocol/modelcontextprotocol** ⭐⭐⭐⭐⭐ - MCP 协议规范与各语言 SDK
 - **langchain-ai/langchain-mcp-adapters** ⭐⭐⭐⭐ - 将 MCP 工具转成 LangChain Tools
 
+> 待核验候选：[agent-qa](https://vostride.com) — 通过 CLI/MCP 测试网页与移动应用，具备 memidex 持久记忆与经验证的自我改进能力（FSL-1.1-ALv2；未评级，见 `appendix`）。
+
 ### 🔬 科研 Agent（1）
 
 - **K-Dense-AI/scientific-agent-skills** ⭐⭐⭐ - 面向科研的 177+ 个 ready-to-use skills（文献检索/数据分析/论文写作/实验设计）
@@ -113,7 +115,7 @@ jq '.skills[] | select(.category == "research")' data/skills.json
 
 ## 📊 数据格式
 
-`data/skills.json` 由三部分组成：`metadata`（元信息）、`skills`（33 条核验条目）、`appendix`（8 条候选）+ `scenarios`（10 个场景推荐）。单条 skill 结构如下：
+`data/skills.json` 由三部分组成：`metadata`（元信息）、`skills`（33 条核验条目）、`appendix`（9 条候选）+ `scenarios`（10 个场景推荐）。单条 skill 结构如下：
 
 ```json
 {

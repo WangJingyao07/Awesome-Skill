@@ -4,7 +4,7 @@
     "slug": "agent-skill-store",
     "survey_date": "2026-10-14",
     "total_skills": 33,
-    "total_appendix": 8,
+    "total_appendix": 9,
     "domains": ["通用 AI Agent", "编程 Agent", "科研 Agent", "企业自动化"],
     "description": "面向 AI Agent 生态的开源技能/工具/MCP/工作流节点精选总结，覆盖通用、编程、科研、企业自动化四大领域，含许可证与活跃度核验。"
   },
@@ -613,6 +613,7 @@
     }
   ],
   "appendix": [
+    { "full_name": "vostride/agent-qa", "url": "https://vostride.com", "note": "待核验候选：通过 CLI/MCP 测试网页、Android 与 iOS 应用，具备 memidex 持久记忆与经验证的自我改进能力；FSL-1.1-ALv2，模型/API 与外部服务费用另计；未实测、未评级" },
     { "full_name": "openai/openai-python", "url": "https://github.com/openai/openai-python", "note": "Function Calling 底层 SDK（Apache-2.0，约 31,840★），与 openai-agents-python 互补" },
     { "full_name": "google-gemini/gemini-cli", "url": "https://github.com/google-gemini/gemini-cli", "note": "Google 开源终端 Agent（Apache-2.0，约 107,334★）" },
     { "full_name": "activepieces/activepieces", "url": "https://github.com/activepieces/activepieces", "note": "AI 工作流自动化 + 约 400 个 MCP server（约 25,043★），n8n 的替代" },
